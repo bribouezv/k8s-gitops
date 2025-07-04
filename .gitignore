@@ -1,5 +1,11 @@
+# Fichiers générés automatiquement
 .terraform/
-terraform.local.hcl
-terraform.tfstate
-terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Config locale
+.terraform.local.hcl
+
+# Fichiers temporaires
+*.tfplan
 crash.log
